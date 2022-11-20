@@ -2,12 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Graphvis</title>
+  <title>Equation Visualizer</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script type="text/javascript" src="https://livejs.com/live.js"></script>
 </head>
 <body>
-  <app-root></app-root>
+
+  <h1>Equation Visualizer</h1>
+
+  <canvas id="graph" class="graph" width="150" height="150">  <div class="scrollable"></div></canvas>
+  
+  <div>
+
+  <div class="equation-input-div">
+    
+    <input class="equation-input"  type="text" value="y = sin (x)" >
+
+  </div>
+  <div class="equation-button-div">
+    <input class="equation-submit"  type="button" value="Visualize">
+  </div>
+</div>
+
+<div class="credit-div">
+  <div>
+
+  </div>
+  <p>Made by <a href="https://github.com/Elektroney" target="_blank">Leon Kraim</a> </p>
+
+  </div>
+  
+    <app-root></app-root>
 </body>
 </html>

@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'graphvis'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('graphvis');
+    expect(app.title).toEqual('Equation Visualizer');
   });
 
   it('should render title', () => {
