@@ -2,7 +2,7 @@
 
 ## About
 This project visualizes algebraic equations to a 2D pixel matrix on a website.
-It was created with special focus on Performance due to it running on Typescript Compiled to Javascript.
+It was created with special focus on Performance due to it running on Typescript compiled to Javascript.
 
 ## Example
 ### x=sin(x)
