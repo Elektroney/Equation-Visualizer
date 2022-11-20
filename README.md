@@ -1,27 +1,21 @@
-# Graphvis
+# Equation Visualizer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+## About
+This project visualizes algebraic equations to a 2D pixel matrix on a website.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Example
+### x=sin(x)
+![image](https://user-images.githubusercontent.com/54000878/202876985-6873feb1-df59-437c-8df6-fcf0b36eddad.png)
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Setup
+#### Prerequisites
+Before you run this project on your machine make sure you have git and the Angular Cli installed on your pc
+#### Install
+To run this on your local machine simply run these commands
+```
+git clone https://github.com/Elektroney/Equation-Visualizer
+cd Equation-Visualizer
+npm install
+ng serve
+```
