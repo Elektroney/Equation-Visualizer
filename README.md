@@ -5,7 +5,7 @@ This project visualizes algebraic equations to a 2D pixel matrix on a website.
 It was created with special focus on Performance due to it running on Typescript compiled to Javascript.
 
 ## Example
-### x=sin(x)
+### y=sin(x)
 ![image](https://user-images.githubusercontent.com/54000878/202876985-6873feb1-df59-437c-8df6-fcf0b36eddad.png)
 
 ## Setup
